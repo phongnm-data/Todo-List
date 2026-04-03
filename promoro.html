@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-section">
+            <div class="logo-icon"><i class="fas fa-check-square"></i></div>
+            <div class="logo-text">
+                <span class="brand-name">Focus Flow</span>
+                <span class="sub-text">Quản lý & Tập trung</span>
+            </div>
+        </div>
+
+        <nav class="menu">
+            <a href="index.html" class="menu-item"> 
+                <i class="fas fa-tasks"></i> Nhiệm vụ
+            </a>
+            <a href="promoro.html" class="menu-item active"> 
+                <i class="far fa-clock"></i> Pomodoro
+            </a>
+            <a href="#" class="menu-item">
+                <i class="fas fa-chart-bar"></i> Thống kê
+            </a>
+            <a href="#" class="menu-item">
+                <i class="fas fa-music"></i> Nhạc
+            </a>
+        </nav>
+
+        <div class="today-stats">
+            <p class="stats-title">Hôm nay</p>
+            <div class="stats-row">
+                <span>Nhiệm vụ</span>
+                <span class="count green">0</span>
+            </div>
+            <div class="stats-row">
+                <span>Pomodoros</span>
+                <span class="count red">0</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="pomodoro-container">
+        <header class="pomo-header">
+            <h1>Pomodoro Timer</h1>
+            <p class="pomo-count"><i class="fas fa-bullseye"></i> 0 Pomodoro hoàn thành</p>
+        </header>
+
+        <div class="mode-switch">
+            <button class="mode-btn red active"><i class="fas fa-clock"></i> Làm việc</button>
+            <button class="mode-btn gray"><i class="fas fa-coffee"></i> Nghỉ ngắn</button>
+            <button class="mode-btn gray"><i class="fas fa-mug-hot"></i> Nghỉ dài</button>
+        </div>
+
+        <div class="timer-display">
+            <div class="circle-outer">
+                <div class="time-text">
+                    <span class="minutes">25:00</span>
+                    <p class="label">Làm việc</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="start-btn"><i class="fas fa-play"></i> Bắt đầu</button>
+            <button class="reset-btn"><i class="fas fa-undo"></i> Đặt lại</button>
+        </div>
+
+        <div class="pomo-info">
+            <h3>Phương pháp Pomodoro</h3>
+            <ul>
+                <li>25 phút làm việc tập trung</li>
+                <li>5 phút nghỉ ngắn</li>
+                <li>Sau 4 Pomodoro: 15 phút nghỉ dài</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

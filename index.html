@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo-section">
+      <div class="logo-icon">
+        <i class="fas fa-check-square"></i>
+      </div>
+      <div class="logo-text">
+        <span class="brand-name">Focus Flow</span>
+        <span class="sub-text">Quản lý & Tập trung</span>
+      </div>
+    </div>
+
+    <nav class="menu">
+      <a href="#" class="menu-item active">
+        <i class="fas fa-tasks"></i> Nhiệm vụ
+      </a>
+      <a href="promoro.html" class="menu-item">
+        <i class="far fa-clock"></i> Pomodoro
+      </a>
+      <a href="#" class="menu-item">
+        <i class="fas fa-chart-bar"></i> Thống kê
+      </a>
+      <a href="#" class="menu-item">
+        <i class="fas fa-music"></i> Nhạc
+      </a>
+    </nav>
+
+    <div class="today-stats">
+      <p class="stats-title">Hôm nay</p>
+      <div class="stats-row">
+        <span>Nhiệm vụ</span>
+        <span class="count green">0</span>
+      </div>
+      <div class="stats-row">
+        <span>Pomodoros</span>
+        <span class="count red">0</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1>Nhiệm vụ của bạn</h1>
+    </header>
+
+    <div class="stats-container">
+      <div class="stat-card blue">
+        <p>Tổng số</p>
+        <span class="stat-number">0</span>
+      </div>
+      <div class="stat-card green">
+        <p>Hoàn thành</p>
+        <span class="stat-number">0</span>
+      </div>
+      <div class="stat-card orange">
+        <p>Đang làm</p>
+        <span class="stat-number">0</span>
+      </div>
+    </div>
+
+    <div class="add-task-bar">
+      <input type="text" placeholder="Thêm nhiệm vụ mới..." class="task-input">
+
+      <select class="priority-select">
+        <option value="low">Thấp</option>
+        <option value="medium">Trung bình</option>
+        <option value="high">Cao</option>
+      </select>
+
+      <button class="add-btn">+ Thêm</button>
+    </div>
+
+    <div class="filter-group">
+      <button class="filter-btn active">Tất cả</button>
+      <button class="filter-btn">Đang làm</button>
+      <button class="filter-btn">Hoàn thành</button>
+    </div>
+
+    <div class="empty-state">
+      <p>Chưa có nhiệm vụ nào. Hãy thêm nhiệm vụ đầu tiên!</p>
+    </div>
+  </div>
+
+
+</body>
+
+
+</html>
