@@ -1,113 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thống kê - Focus Flow</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <body>
-    <div class="sidebar">
-        <div class="logo-section">
-            <div class="logo-icon"><i class="fas fa-check-square"></i></div>
-            <div class="logo-text">
-                <span class="brand-name">Focus Flow</span>
-                <span class="sub-text">Quản lý & Tập trung</span>
-            </div>
-        </div>
-
-        <nav class="menu">
-            <a href="index.html" class="menu-item"> <i class="fas fa-tasks"></i> Nhiệm vụ
-            </a>
-            <a href="promoro.html" class="menu-item active"> <i class="far fa-clock"></i> Pomodoro
-            </a>
-            <a href="#" class="menu-item">
-                <i class="fas fa-chart-bar"></i> Thống kê
-            </a>
-            <a href="#" class="menu-item">
-                <i class="fas fa-music"></i> Nhạc
-            </a>
-        </nav>
-
-        <div class="today-stats">
-            <p class="stats-title">Hôm nay</p>
-            <div class="stats-row">
-                <span>Nhiệm vụ</span>
-                <span class="count green">0</span>
-            </div>
-            <div class="stats-row">
-                <span>Pomodoros</span>
-                <span class="count red">0</span>
-            </div>
-        </div>
+  <div class="sidebar">
+    <div class="logo-section">
+      <div class="logo-icon">
+        <i class="fas fa-check-square"></i>
+      </div>
+      <div class="logo-text">
+        <span class="brand-name">Focus Flow</span>
+        <span class="sub-text">Quản lý & Tập trung</span>
+      </div>
     </div>
 
-    <div class="statistical-container">
-        <div class="sidebar">
-    <a href="thongke.html" class="menu-item active">
+    <nav class="menu">
+      <a href="index.html" class="menu-item">
+        <i class="fas fa-tasks"></i> Nhiệm vụ
+      </a>
+      <a href="promoro.html" class="menu-item">
+        <i class="far fa-clock"></i> Pomodoro
+      </a>
+      <a href="statistical.html" class="menu-item active">
         <i class="fas fa-chart-bar"></i> Thống kê
-    </a>
-</div>
+      </a>
+      <a href="music.html" class="menu-item">
+        <i class="fas fa-music"></i> Nhạc
+      </a>
+    </nav>
 
-<div class="main-content">
+    <div class="today-stats">
+      <p class="stats-title">Hôm nay</p>
+      <div class="stats-row">
+        <span>Nhiệm vụ</span>
+        <span class="count green">0</span>
+      </div>
+      <div class="stats-row">
+        <span>Pomodoros</span>
+        <span class="count red">0</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content">
     <header>
-        <h1>Thống kê</h1>
+      <h1>Thống kê</h1>
     </header>
 
     <div class="stats-grid">
-        <div class="stat-box blue">
-            <i class="fas fa-bullseye"></i>
-            <span class="value">0</span>
-            <span class="label">Nhiệm vụ hoàn thành</span>
-        </div>
-        <div class="stat-box red">
-            <i class="fas fa-bolt"></i>
-            <span class="value">0</span>
-            <span class="label">Pomodoros</span>
-        </div>
-        <div class="stat-box green">
-            <i class="fas fa-chart-line"></i>
-            <span class="value">0h 0m</span>
-            <span class="label">Thời gian tập trung</span>
-        </div>
-        <div class="stat-box purple">
-            <i class="fas fa-award"></i>
-            <span class="value">7</span>
-            <span class="label">Chuỗi ngày</span>
-        </div>
+      <div class="stat-box blue">
+        <i class="fas fa-bullseye"></i>
+        <span class="value">0</span>
+        <span class="label">Nhiệm vụ hoàn thành</span>
+      </div>
+      <div class="stat-box red">
+        <i class="fas fa-bolt"></i>
+        <span class="value">0</span>
+        <span class="label">Pomodoros</span>
+      </div>
+      <div class="stat-box green">
+        <i class="fas fa-chart-line"></i>
+        <span class="value">0h 0m</span>
+        <span class="label">Thời gian tập trung</span>
+      </div>
+      <div class="stat-box purple">
+        <i class="fas fa-award"></i>
+        <span class="value">7</span>
+        <span class="label">Chuỗi ngày</span>
+      </div>
     </div>
 
     <div class="achievement-container">
-        <div class="achievement-header">
-            <i class="fas fa-medal"></i> Thành tựu
+      <div class="achievement-header">
+        <i class="fas fa-medal"></i> Thành tựu
+      </div>
+      
+      <div class="achievement-item">
+        <div class="achievement-info">
+          <span class="icon">🔥</span>
+          <span class="name">Người tập trung</span>
         </div>
-        
-        <div class="achievement-item">
-            <div class="achievement-info">
-                <span class="icon">🔥</span>
-                <span class="name">Người tập trung</span>
-            </div>
-            <span class="requirement">Hoàn thành 10 Pomodoros</span>
-        </div>
+        <span class="requirement">Hoàn thành 10 Pomodoros</span>
+      </div>
 
-        <div class="achievement-item">
-            <div class="achievement-info">
-                <span class="icon">⚡</span>
-                <span class="name">Siêu hiệu quả</span>
-            </div>
-            <span class="requirement">Hoàn thành 20 nhiệm vụ</span>
+      <div class="achievement-item">
+        <div class="achievement-info">
+          <span class="icon">⚡</span>
+          <span class="name">Siêu hiệu quả</span>
         </div>
+        <span class="requirement">Hoàn thành 20 nhiệm vụ</span>
+      </div>
 
-        <div class="achievement-item">
-            <div class="achievement-info">
-                <span class="icon">🎯</span>
-                <span class="name">Kiên trì</span>
-            </div>
-            <span class="requirement">7 ngày liên tiếp</span>
+      <div class="achievement-item">
+        <div class="achievement-info">
+          <span class="icon">🎯</span>
+          <span class="name">Kiên trì</span>
         </div>
+        <span class="requirement">7 ngày liên tiếp</span>
+      </div>
     </div>
-</div>
-    </div>
-</body>
+  </div>
 </body>
 </html>

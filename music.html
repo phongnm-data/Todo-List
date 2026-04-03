@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nhạc nền - Focus Flow</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo-section">
+      <div class="logo-icon"><i class="fas fa-check-square"></i></div>
+      <div class="logo-text">
+        <span class="brand-name">Focus Flow</span>
+        <span class="sub-text">Quản lý & Tập trung</span>
+      </div>
+    </div>
+
+    <nav class="menu">
+      <a href="index.html" class="menu-item">
+        <i class="fas fa-tasks"></i> Nhiệm vụ
+      </a>
+      <a href="promoro.html" class="menu-item">
+        <i class="far fa-clock"></i> Pomodoro
+      </a>
+      <a href="statistical.html" class="menu-item">
+        <i class="fas fa-chart-bar"></i> Thống kê
+      </a>
+      <a href="music.html" class="menu-item active">
+        <i class="fas fa-music"></i> Nhạc
+      </a>
+    </nav>
+
+    <div class="today-stats">
+      <p class="stats-title">Hôm nay</p>
+      <div class="stats-row"><span>Nhiệm vụ</span><span class="count green">0</span></div>
+      <div class="stats-row"><span>Pomodoros</span><span class="count red">0</span></div>
+    </div>
+  </div>
+
+  <div class="main-content music-page">
+    <div class="player-container">
+      <div class="player-header">
+        <i class="fas fa-music"></i> Nhạc nền
+      </div>
+
+      <div class="now-playing-card">
+        <div class="album-art">
+          <i class="fas fa-music"></i>
+        </div>
+        <div class="song-info">
+          <h3>Lofi Study Beats</h3>
+          <p>Chill Vibes</p>
+          <span class="tag">Lofi</span>
+        </div>
+        <div class="player-controls">
+          <button class="play-btn"><i class="fas fa-play"></i></button>
+          <button class="next-btn"><i class="fas fa-step-forward"></i></button>
+        </div>
+        <div class="volume-slider">
+          <i class="fas fa-volume-up"></i>
+          <input type="range" min="0" max="100" value="50">
+        </div>
+      </div>
+
+      <div class="playlist">
+        <p class="playlist-title">Danh sách phát:</p>
+        <div class="playlist-item active">
+          <div class="item-text">
+            <strong>Lofi Study Beats</strong>
+            <span>Chill Vibes</span>
+          </div>
+        </div>
+        <div class="playlist-item">
+          <div class="item-text">
+            <strong>Ambient Focus</strong>
+            <span>Study Music</span>
+          </div>
+        </div>
+        <div class="playlist-item">
+          <div class="item-text">
+            <strong>Piano Concentration</strong>
+            <span>Classical Study</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="music-tips">
+      <h3>Mẹo sử dụng nhạc nền</h3>
+      <ul>
+        <li><i class="fas fa-music"></i> Chọn nhạc lofi hoặc ambient để tập trung tốt hơn</li>
+        <li><i class="fas fa-volume-down"></i> Điều chỉnh âm lượng phù hợp (không quá to)</li>
+        <li><i class="fas fa-headphones"></i> Nhạc nền giúp che các âm thanh gây xao lãng</li>
+        <li><i class="fas fa-redo"></i> Chuyển bài nếu không phù hợp với tâm trạng</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
