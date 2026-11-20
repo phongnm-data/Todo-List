@@ -26,4 +26,4 @@ jobs:
           port: 21
 
           local-dir: ./
-          server-dir: /www.nguyenmanhphong.somee.com/
+          server-dir: /nguyenmanhphong.somee.com/
